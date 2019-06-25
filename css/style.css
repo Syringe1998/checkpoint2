@@ -1,0 +1,65 @@
+body{
+    height: 2000px;
+    Background-image:
+    Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+
+    Linear-gradient(127deg, black, black 70.71%),
+  
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  color:white;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left:200px;
+font-size: 1.5em;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 2px;
+color: white;
+}
+
+li :hover{
+color: red;
+}
+
+.nav
+{
+  color:white;
+ 
+}
+.img{
+  margin-left: 40px;
+  margin-top: 30px;
+  text-align: center;
+}
+.text{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.moreaboutus{
+  color: blanchedalmond;
+  text-align: center;
+  padding: 50px;
+  font-size: 40px;
+}
+.view{
+  color: white;
+  text-align: center;
+  }
