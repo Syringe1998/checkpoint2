@@ -1,10 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-   
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+
 </head>
 <body>
-    
+<div class="cover">
+        <img src="back.png" width="100%" height="400px" >
+</div>
+<div id="ex1" class="modal">
+        <p>This is GoMyCode Track. 
+             Each track has its own goal. 
+             By adopting this track, you chose your own goal.</p>
+        
+      </div>
+<div class="courses">
+        <div class="courses1">
+            <div class="card1">
+                    <img class=first src="5.png" width="300px" height="300px" >
+                    <a class=viewmore  href="#ex1" rel="modal:open">viewmore</a> 
+            </div>
+            <div class="card1">
+                <img class=first src="6.png" width="300px" height="300px" >
+                <a class=viewmore   href="#ex1" rel="modal:open">viewmore</a> 
+            </div>
+            <div class="card1">
+                    <img class=first src="7.png" width="300px" height="300px" >
+                    <a class=viewmore   href="#ex1" rel="modal:open">viewmore</a> 
+            </div>
+                
+        </div>
+        <div class="courses2">
+                <div class="card1">
+                        <img class=first src="8.png" width="300px" height="300px" >
+                        <a class=viewmore   href="#ex1" rel="modal:open">viewmore</a> 
+                </div>
+                <div class="card1">
+                        <img class=first src="9.png" width="300px" height="300px">
+                        <a class=viewmore   href="#ex1" rel="modal:open">viewmore</a> 
+                </div>
+                <div class="card1">
+                        <img class=first src="10.png" width="300px" height="300px">
+                        <a class=viewmore   href="#ex1" rel="modal:open">viewmore</a> 
+                </div>
+                
+               
+        </div>
+        <div class="courses3">
+                <div class="card1">
+                        <img class=first src="11.png" width="300px" height="300px" >
+                        <a class=viewmore  href="#ex1" rel="modal:open">viewmore</a> 
+                </div>
+                <div class="card1">
+                        <img class=first src="12.png" width="300px" height="300px">
+                        <a class=viewmore   href="#ex1" rel="modal:open">viewmore</a> 
+                </div>
+                <div class="card1">
+                        <img class=first src="13.png" width="300px" height="300px">
+                        <a class=viewmore   href="#ex1" rel="modal:open">viewmore</a> 
+                </div>  
+        </div>
+</div>
+<center>
+
+
+<form>
+
+
 <h1>COURSES</h1>
 <h2>Feedbacks</h2>
 <button onclick="Fbold()">B</button>
@@ -21,11 +90,14 @@
     <option value="Verdana">Verdana</option>
      <option value="Geneva">Geneva</option>
 </select>
-
-    <form>
+</form>
+<form>
         <br>
-        <textarea id="demo" id="text" type="text" style="width:600px; height:200px; color:black ; font-style:normal; font-weight: normal;text-decoration:none;"></textarea>
-    </form>
+        <textarea id="demo" type="text" style="width:600px; height:100px; color:black ; font-style:normal; font-weight: normal;text-decoration:none;justify-content: center;"></textarea>
+</form>
+
+</center>
+
    
 </body>
 <script src="js/main.js"></script>
